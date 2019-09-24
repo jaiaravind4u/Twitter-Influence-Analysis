@@ -1,0 +1,132 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background:#fff;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.app{
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.header{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    box-sizing: border-box;
+    padding: 0 2.5%;
+    background:#34a6ff;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.bg-prime{
+    background-color:#34a6ff!important;
+}
+.border-prime {
+    border-color: #34a6ff!important;
+}
+.text-prime {
+    color: #34a6ff!important;
+}
+.btn-prime{
+    border: 2px solid #34a6ff;
+    color:#fff;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 150px 0px 0 #34a6ff;
+}
+.btn-prime:hover {
+    background: transparent;
+    color:#34a6ff;
+    box-shadow: inset 0px 0 0 #34a6ff;
+}
+
+.header h2{
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    /*! font-weight: 900; */
+}
+
+.left {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #34a6ff;
+    padding: 50px;
+    height: 100%;
+    background: #fff;
+}
+
+@keyframes input-focus {
+    0% {box-shadow: inset 0px 0 0 rgba(0,0,0,0.0)}
+    50% {box-shadow: inset 300px 0 0 rgba(16,122,255,0.5)}
+    100% {box-shadow: inset 0px 0 0 rgba(0,0,0,0.0)}
+    
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    margin: 5px;
+    background: transparent;
+    color: #111;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sync-alt {
+    position: fixed;
+    top: 12%;
+}
+
+.hidden{
+    display: none;
+}
+
+input:focus {
+    border-color: #34a6ff;
+    animation: input-focus 0.5s
+}
+
+button {
+    /* display: block;
+    margin: 10px auto;
+    padding: 8px 25px;
+    border: 2px solid #34a6ff;
+    color:#fff;
+    font-size: 1em;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: transparent;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 150px 0px 0 #34a6ff; */
+}
+
+button:hover {
+    background: transparent;
+    color:#34a6ff;
+    box-shadow: inset 0px 0 0 #34a6ff;
+}

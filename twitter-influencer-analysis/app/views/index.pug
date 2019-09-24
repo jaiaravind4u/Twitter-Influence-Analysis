@@ -1,0 +1,57 @@
+html 
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width , initial-scale=1.0")
+        title Twitter Influencer Analysis
+        script(src='/res/js/jquery.min.js')
+        link(rel="stylesheet", href="/res/css/sb-admin-2.min.css")
+        link(rel="stylesheet", href="/res/css/fontawesome.min.css")
+        link(rel="stylesheet", href="/res/css/style.css")
+            
+    body
+        div#wrapper.wrapper 
+            div#content-wrapper.d-flex.flex-column
+                div#content
+                    //- Top bar
+                    navbar.navbar.navbar-expand.topbar.static-top.shadow.bg-prime.navbar-light
+                        div.container-fluid
+                            div.font-weight-bold.text-lg.text-white 
+                                i.fab.fa-twitter 
+                                span(style="margin-left: 10px") Twitter Influencer Finder 
+                    //- Content
+                    div.container-fluid.pl-0
+                        div.row
+                            div.col-lg-4.bg-white.shadow
+                                div.container.mt-5
+                                    form
+                                        div.form-group.form-group-default
+                                            label Location
+                                            label(style="margin-left: 5px; color:red")  *
+                                            input#location.form-control.w-75
+                                        div.form-group.form-group-default
+                                            label Topic 
+                                            label(style="margin-left: 5px; color:red")  *
+                                            input#topic.form-control.w-75
+                                    div.w-75.text-center
+                                        button#search.btn.btn-prime.w-50 Submit
+
+                            div.col-lg-8.h-100.mt-3.overflow-auto
+                                button#get-file.btn.btn-light.float-right.hidden
+                                    i.fas.fa-sync-alt
+                                
+                                div#result-container.container.p-3
+                                    
+                                        
+                                         
+                                          
+                                           
+                                            
+                                             
+                                              
+                                               
+                                                
+                                                 
+                                                  
+                                                   
+    
+    script(src='/res/js/script.js')
